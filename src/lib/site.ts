@@ -211,7 +211,7 @@ export const empresa = {
   endereco: "Rodovia SC 110, Rio Antinhas, Petrolândia - 88430-000",
   mapsLink:
     "https://www.google.com/maps/search/?api=1&query=Rodovia+SC+110,+Rio+Antinhas,+Petrol%C3%A2ndia+-+SC",
-  horario: "Segunda a sexta, 8h às 18h · Sábado, 8h às 12h",
+  horario: "Segunda a sexta, 7h30 ao 12h · 13h30 às 18h",
 } as const;
 
 export function whatsappCom(mensagem: string) {
