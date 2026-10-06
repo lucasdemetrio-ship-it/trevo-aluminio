@@ -28,13 +28,20 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      {/* Hero */}
+            {/* Hero */}
       <section
-        className="relative min-h-[70vh] w-full bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroTrevo})` }}
+        className="relative w-full"
         aria-label="Alumínios Trevo — Esquadrias de Alumínio e Vidros Temperados"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/80" />
+        <img
+          src={heroTrevo}
+          alt="Fachada da Alumínios Trevo — Esquadrias de Alumínio e Vidros Temperados"
+          width={1672}
+          height={941}
+          fetchPriority="high"
+          className="block h-auto w-full"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/80" />
         <h1 className="sr-only">Alumínios Trevo — Esquadrias de Alumínio e Vidros Temperados</h1>
       </section>
 
